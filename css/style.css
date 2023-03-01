@@ -1,0 +1,177 @@
+body{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 18px;
+}
+
+header{
+	background-color: #49B6ff;
+	color: #fff;
+	justify-content: space-between;
+	text-align: right;
+	align-items: right;
+}
+
+.animative{
+	padding-top: 10px;
+}
+
+.logo{
+	display: flex;
+	align-items: center;
+	
+}
+
+.logo-img{
+	height: 40px;
+	margin-right: 15px;
+	margin-left: 30px;
+}
+
+.text{
+    display: flex;
+	align-items: center;
+	padding-right: 50px;
+	padding-top: 10px;
+
+}
+
+.section{
+	text-align: center;
+	
+}
+
+.learn{
+	padding-right: 20px;
+	
+}
+
+.sign-in{
+	padding-right: 20px;
+}
+
+
+
+
+footer{
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	padding: 1px 0;
+}
+
+.Rose_bonbon{
+	color: #FF499E;
+}
+
+.Sky_Magenta{
+	color: #D264B6;
+}
+
+.Lavender{
+	color: #A480CF;
+}
+
+.Vista_Blue{
+	color: #779BE7;
+}
+
+.Argentinian_Blue{
+	color: #49B6FF;
+}
+
+#niche{
+	background-color: #779BE7;
+	color: white;
+	text-align: center;
+	padding: 80px 0px;
+}
+
+.img-1 {
+	margin: 25px;
+	border: 7px solid #ff499e;
+	border-radius: 7px;
+}
+ 
+.text-1 {
+	text-align: center;
+	font-size: 26px;
+	text-decoration-color: #546DA2;
+}
+
+.img-2 {
+	margin: 25px;
+	border: 7px solid #4ab6ff;
+	border-radius: 7px;
+}
+
+ .text-2 {
+	text-align: center;
+	font-size: 26px;
+	text-decoration-color: #546DA2;
+}
+
+.img-3 {
+	margin: 25px;
+	border: 7px solid #a580ce;
+	border-radius: 7px;
+}
+ 
+.text-3 {
+	text-align: center;
+	font-size: 26px;
+	text-decoration-color: #546DA2;
+}
+
+.img-4 {
+	margin: 25px;
+	border: 7px solid #779be7;
+	border-radius: 7px;
+}
+
+.text-4 {
+	text-align: center;
+	font-size: 26px;
+	text-decoration-color: #546DA2;
+}
+
+
+
+.hero {
+   position: relative;
+   width: 100vw;
+   height: 80vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.hero::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: url("../img/animator.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   filter: brightness(60%);
+}
+.hero-content {
+   position: relative;
+   font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif';
+   color: white;
+   text-align: center;
+   margin: 6px;
+}
+.hero-title {
+   font-size: 45px;
+   font-weight: 600;
+   margin-bottom: 0px;
+}
+.hero-subtitle {
+   font-size: 23px;
+   font-weight: 200;
+   margin-top: 25px;
+}
+
