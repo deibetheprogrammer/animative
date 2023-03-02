@@ -37,7 +37,7 @@ header{
 
 .section{
 	text-align: center;
-	
+	padding: 7% 0;
 }
 
 .learn{
@@ -55,7 +55,7 @@ header{
 footer{
 	background-color: #000;
 	color: #fff;
-	text-align: center;
+	text-align: start;
 	padding: 1px 0;
 }
 
@@ -178,4 +178,38 @@ footer{
    font-weight: 200;
    margin-top: 25px;
 }
+
+#animative{
+	background-color: #A9D9F0;
+	color: #fff;
+	padding: 20px 0px;
+
+}
+
+#plataforma{
+	background-color:#A9D9F0;
+	color: #fff;
+	padding: 20px 0px;
+}
+
+#nosotros{
+	background-color:#A9D9F0;
+	color: #fff;
+	padding: 20px 0px;
+}
+
+#about-us{
+	padding: 2% 0;
+}
+
+#socials{
+	padding: 2% 0;
+	text-align: start;
+}
+
+
+
+
+
+
 
