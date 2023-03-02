@@ -143,8 +143,12 @@ footer{
    display: flex;
    justify-content: center;
    align-items: center;
+	background-image: url("../img/animator.jpg");
+	background-size: cover;
+	background-position: top center;
 }
-.hero::before {
+
+/*.hero::before {
    content: "";
    position: absolute;
    top: 0;
@@ -156,7 +160,7 @@ footer{
    background-size: cover;
    background-position: center center;
    filter: brightness(60%);
-}
+}*/
 .hero-content {
    position: relative;
    font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif';
